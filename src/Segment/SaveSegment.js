@@ -2,7 +2,7 @@ import { useState } from "react";
 import SideBar from "./SideBar";
 
 const SaveSegment = () => {
-  const [closeBar, setCloseBar] = useState(false);
+  const [closeBar, setCloseBar] = useState(true);
 
   const onClosePage = () => setCloseBar(false);
   const onOpenPage = () => setCloseBar(true);
